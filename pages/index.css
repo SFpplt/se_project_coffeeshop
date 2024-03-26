@@ -6,3 +6,11 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.header {
+  background-color: #FFFFFF;
+  background-image: url(/se_project_coffeeshop/images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
