@@ -13,12 +13,134 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 30px 80px 40px 80px;
 }
 
 .nav__logo {
   width: 105px;
   height: 39px;
   position: relative;
-  left: 30px;
-  right: 30px;
+  left: -50px;
+  top: -10px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__links {
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__link {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.header__title {
+  max-width: 729px;
+  display: flex;
+  flex-direction: column;
+  column-gap: 28px;
+  margin: 183px 0 0 80px;
+}
+
+.header__title_italics {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2F80ED;
+}
+
+.header__image {
+  width: 646px;
+  height: 568px;
+  padding: 0;
+  position: absolute;
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+}
+
+.header__address {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383;
+  position: absolute;
+}
+
+.header__column-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #838383
+}
+
+.header__column-heading_title {}
+
+.header__list-ite {}
+
+
+.content {
+background-image: url(../images/background_recipes.svg);
+}
+
+.recipes {}
+
+.recipe_title {
+  font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+}
+
+.recipe_subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.recipe_videos {}
+
+.iframe {
+  width: 480px;
+  height: 273px;
+  display: flex;
+  flex-direction: row;
+  row-gap: 40px;
+  align-items: center;
+}
+
+.video_caption {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
 }
