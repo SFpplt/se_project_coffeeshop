@@ -15,13 +15,14 @@
 }
 
 .header {
-  padding: 0;
+  padding: 3px 80px 40px;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
+  box-sizing: border-box;
 }
 
 .nav {
@@ -56,12 +57,6 @@ padding-left: auto;
   text-decoration: none;
 }
 
-.header_title {
-  max-width: 729px;
-  display: flex;
-  flex-direction: column;
-}
-
 .header_span-accent {
   font-family: "Noto Serif";
   font-style: italic;
@@ -69,8 +64,10 @@ padding-left: auto;
   font-size: 60px;
   line-height: 72px;
   color: #2F80ED;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  display: block;
+  margin: 213px 0 0 0;
 }
 
 .title {
@@ -175,26 +172,44 @@ height: 100vh;
   font-size: 20px;
   line-height: 30px;
   color: #ffffff;
+  position: relative;
+  top: 124px;
+  left: 80px;
+  max-width: 438px;
 }
 
 .recipe_videos {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-content: center;
+  gap: 40px;
 }
 
-.iframe {
+.recipe_aeropress-video {
   width: 480px;
   height: 273px;
-  display: flex;
-  flex-direction: row;
-  row-gap: 40px;
-  margin: auto;
-  gap: 40px;
-
 }
 
-.video_caption {
+.recipe_french-press-video {
+  width: 480px;
+  height: 273px;
+}
+
+.video_captions {}
+
+.video_caption-press-video {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.video_caption-aeropress-video {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
