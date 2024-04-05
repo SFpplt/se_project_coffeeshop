@@ -9,29 +9,22 @@
   background-image: url(/se_project_coffeeshop/images/background_header.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
+  background-size: contain;
 }
 
 .header {
-  padding: 3px 80px 40px;
-  min-height: 720px;
-  max-height: 800px;
+
   height: 100vh;
-  display: flex;
-  flex-direction: column;
   position: relative;
   box-sizing: border-box;
 }
 
 .nav {
-display: flex;
-justify-content: space-between;
-padding-left: auto;
+padding: 0;
+margin: 30px 0 80px 30px;
 }
 
-.nav_logo {
+.nav__logo {
   width: 105px;
   height: 39px;
   position: absolute;
@@ -44,7 +37,7 @@ padding-left: auto;
   list-style-type: none;
   text-decoration: none;
   display: flex;
-  margin: 8px 0 0;
+  flex-direction: row;
 }
 
 .nav__link {
@@ -57,7 +50,7 @@ padding-left: auto;
   text-decoration: none;
 }
 
-.header_span-accent {
+.header__span-accent {
   font-family: "Noto Serif";
   font-style: italic;
   font-weight: normal;
@@ -67,10 +60,9 @@ padding-left: auto;
   margin: 0 auto;
   padding: 0;
   display: block;
-  margin: 213px 0 0 0;
 }
 
-.title {
+.header__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -81,7 +73,7 @@ padding-left: auto;
   margin: 0;
 }
 
-.header_image {
+.header__image {
   width: 646px;
   height: 568px;
   padding: 0;
@@ -90,7 +82,7 @@ padding-left: auto;
   right: 5px;
 }
 
-.header_description {
+.header__description {
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -100,59 +92,27 @@ padding-left: auto;
   position: relative;
 }
 
-.header_footer-address {
+.header__paragraph {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-  position: relative;
-  right: 80px;
-  bottom: 40px;
-
 }
 
-.header_footer-column-heading {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383
-}
-
-.header_footer_column-heading-title {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383
-}
-
-.header_footer-list-item {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #838383
-}
-
-
-.content {
+.recipes {
 background-image: url(../images/background_recipes.svg);
 background-color: #0A2750;
-min-height: 720px;
-max-height: 800px;
 background-repeat: no-repeat;
 background-position: center;
-background-size: cover;
+background-size: contain;
 height: 100vh;
+min-height: 720px;
+max-height: 800px;
 }
 
-.recipe_title {
+.recipes__title {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -165,7 +125,7 @@ height: 100vh;
   left: 80px;
 }
 
-.recipe_subtitle {
+.recipes__subtitle {
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -178,38 +138,21 @@ height: 100vh;
   max-width: 438px;
 }
 
-.recipe_videos {
+.recipes__videos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-content: center;
   gap: 40px;
+  margin: auto;
 }
 
-.recipe_aeropress-video {
+.recipes__iframe {
   width: 480px;
   height: 273px;
 }
 
-.recipe_french-press-video {
-  width: 480px;
-  height: 273px;
-}
-
-.video_captions {}
-
-.video_caption-press-video {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-}
-
-.video_caption-aeropress-video {
+.recipes__video-caption {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -217,3 +160,4 @@ height: 100vh;
   line-height: 30px;
   color: #ffffff;
 }
+
