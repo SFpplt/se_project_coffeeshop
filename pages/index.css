@@ -5,12 +5,6 @@
   font-size:16px;
   line-height:20px;
   font-family:Inter, Arial, Sans-Serif;
-  background-color:#FFFFFF;
-  background-image:url(/se_project_coffeeshop/images/background_header.svg);
-  background-repeat:no-repeat;
-  background-position:center;
-  background-size: cover;
-  height: 100vh;
 }
 
 .header {
@@ -22,6 +16,12 @@ position: relative;
 z-index: 0;
 display: flex;
 flex-direction: column;
+background-color:#FFFFFF;
+background-image:url(/se_project_coffeeshop/images/background_header.svg);
+background-repeat:no-repeat;
+background-position:center;
+background-size: cover;
+height: 100vh;
 }
 
 .nav {
