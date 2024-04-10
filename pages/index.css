@@ -169,7 +169,7 @@ padding: 100px 0 215px 0;
   justify-content: center;
 }
 
-.recipes__iframe {
+.iframe {
   display: flex;
   flex-direction: column;
 }
