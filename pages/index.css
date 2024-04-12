@@ -274,14 +274,9 @@ height: 100vh;
   transition: opacity ease-in-out;
 }
 
-@keyframes opacity {
-  opacity: 1;
-}
-
 .form__button:hover {
 opacity: 0.7;
 }
-
 
 .form__checkbox {
   border-radius: 2px;
@@ -289,11 +284,3 @@ opacity: 0.7;
   height: 20px;
   margin: 0 12px 120px 0;
 }
-
-
-
-
-
-
-
-
