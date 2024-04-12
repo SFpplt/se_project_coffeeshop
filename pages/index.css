@@ -272,7 +272,9 @@ height: 100vh;
   max-width: 385px;
   width: 100%;
   transition: opacity ease-in-out;
-  @starting-style
+}
+
+@keyframes opacity {
   opacity: 1;
 }
 
