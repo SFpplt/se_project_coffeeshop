@@ -6,9 +6,8 @@
     <meta name="description" content="Coffee Shop Landing Page" />
     <meta name="author" content="Nicole Nguyen" />
     <meta name="keywords" content="html css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="../pages/index.css" />
+    <link rel="icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,7 +22,7 @@
       <header class="header">
         <nav class="nav">
         <img
-            src="./images/logo_coffeeshop_dark.svg"
+            src="../images/logo_coffeeshop_dark.svg"
             alt="Triple Espresso Logo"
             class="nav__logo"
           >
@@ -47,7 +46,7 @@
        <h1 class="header__title"><span class="header__span-accent">Specialty coffee</span> in the Triple Peaks Library</h1>
         <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
         <img
-          src="./images/inside_coffee_shop.png"
+          src="../images/inside_coffee_shop.png"
           alt="There is an illustration of a coffee shop. The building is shaped like a square that tilts onto one of the corners. There is a large table that takes up half of the small square. On that table are five chairs that are all completely different from one another. One of the chairs is occupied by a guy who is working. He has an empty plate and several tools for work such as a lamp, laptop and notebooks. There is even a train and traintracks in front of his work materials. In the right corner, there is a cafe that is being run by a barista with six mechanical arms. The remaining space in the bottom left side of the square is filled with a coffee table."
           class="header__image"
         />
@@ -112,12 +111,89 @@
           </form>
         </section>
 
+        <section class="menu"  id="menu">
+          <h2 class="menu__title">Menu</h2>
 
-        <section class="menu"  id="menu"></section>
-        <section class="about" id="contacts"></section>
+            <h3 class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas from our collection are $2/cup.
+            </h3>
+
+              <div class="menu__cards">
+                <div class="card">
+                  <ul class="card__title">
+                  Filter
+                  </ul>
+                    <span class="card__list-divider">.</span>
+                      <li class="card__list-item">
+                      Regular (12 oz) $1
+                      Large (16 oz) $1.25
+                      XL (20 oz) $1.5
+                      Party-size (24 oz, decaf) $1.75
+                      Iced Coffee (16 oz) $1.25
+                      </li>
+                </div>
+
+                <div class="card">
+                  <ul class="card__title">
+                  Espresso
+                  </ul>
+                    <span class="card__list-divider">.</span>
+                      <li class="card__list-item">
+                      Macchiato $2.25
+                      Cortado $2.5
+                      Mocha $3
+                      Sunrise in the Bay Area (decaf) $10
+                      </li>
+                </div>
+
+                <div class="card">
+                  <ul class="card__title">
+                  Baked Goods
+                  </ul>
+                    <span class="card__list-divider">.</span>
+                      <li class="card__list-item">
+                      Almond Croissant $2
+                      Banana Bread $1.75
+                      Key Lime Pie $3
+                      Blue Velvet Cake $3.75
+                      Web Cookie $2
+                      Fresh Bug’uette $0.25
+                      </li>
+                </div>
+              </div>
+        </section>
+
+        <section class="about" id="contacts">
+          <h2 class="about__title">About the coffee shop</h2>
+            <div class="about__content">
+              <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</p>
+              <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+              <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
+            </div>
+              <div class="about__circle"></div>
+        </section>
       </main>
+    </div>
 
-      <footer class="footer" id="recipes"></footer>
-</div>
+      <footer class="footer" id="recipes">
+        <div class="footer__content">
+          <div class="footer__logo"></div>
+
+            <ul class="footer__social-heading">Social media</ul>
+                <div class="footer__list">
+                  <div class="footer__list-item">
+             <li class="footer__social-icon"></li>
+              <li class="footer__social-link">Facebook</li>
+                  </div>
+                  <div class="footer__list-item">
+            <li class="footer__social-icon"></li>
+              <li class="footer__social-link">Instagram</li>
+                  </div>
+                </div>
+
+            <div class="footer__copyright">© 2023 Nicole Nguyen</div>
+        </div>
+      </footer>
+
   </body>
 </html>
