@@ -53,15 +53,13 @@
   overflow: hidden;
 }
 
-.pulsate {
-  animation: ease-in-out 1.3s infinite;
+.about__circle_animation_blurred {
+  animation: pulsate ease-in-out 1.3s infinite;
   animation-delay: 0s;
 }
 
-@keyframes pulsate {
-0% {opacity: 0;}
-
-50% {opacity: 0.6;}
-
-100% {scale: 1.4;}
+@keyframes .pulsate {
+0% { opacity: 0; }
+50% { opacity: 0.6; }
+100% { scale: 1.4; }
 }
