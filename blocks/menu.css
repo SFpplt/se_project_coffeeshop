@@ -12,6 +12,7 @@
     background-image: url(../images/background_menu.svg);
     background-color: #fff;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
